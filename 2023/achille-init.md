@@ -154,3 +154,27 @@ saveAsDraft:
 ---
 
 # Achille - Setup Project
+
+Achille is an open source mobile app built on top of [React Native](https://reactnative.dev/).
+
+We'll use [Expo](https://docs.expo.dev/) to setup our project.
+
+We'll use the following command line to create our project ([ref](https://github.com/expo/examples/tree/master/with-typescript))
+
+> npx create-react-native-app -t with-typescript
+
+## Execute from Github Codespaces
+
+You have to signup on Expo.
+
+> expo login
+
+insert your username / password
+
+> expo start --tunnel
+
+then scan the QR code from your phone.
+
+## References
+
+You can find all the code for this app in [Github Repo](https://github.com/coluzziandrea/achille)
