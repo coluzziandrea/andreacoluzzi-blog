@@ -65,7 +65,7 @@ ignorePost:
 #   team publication in Hashnode editor.
 # - Fails if the user is not a member of the team publication or
 #   if the publication is not a team publication
-publishAs: coluzziandrea
+publishAs:
 
 # Canonical URL of the post
 # String | Optional
