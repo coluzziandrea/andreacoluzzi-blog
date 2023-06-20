@@ -17,7 +17,7 @@ title: Achille - Setup Project
 # - If you change only the slug of the post, the post will be updated with the new slug.
 # - If you change only the path of the post, the post will be will be updated with new path
 #   and any other changes along with it if any.
-slug: example-slug
+slug: achille-init
 
 # Tags
 # String (comma-separated tag slugs) | *REQUIRED*
@@ -25,7 +25,7 @@ slug: example-slug
 # Upto 5 tag slugs
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 # You can also update a post to edit this later.
-tags: reactjs, css, python, nodejs
+tags: reactjs, css, react-native, nodejs
 
 # Publication Domain (hashnode.dev subdomain or your custom domain)
 # String | *REQUIRED*
@@ -39,7 +39,7 @@ domain: https://coluzziandrea.hashnode.dev/
 # Subtitle of the post
 # String | Optional
 # Ex: A curated list of the best React UI libraries for 2023
-subtitle:
+subtitle: Setup Achille project
 
 # Cover Image URL of the post
 # String | Optional
@@ -47,7 +47,7 @@ subtitle:
 # Ex: https://cdn.hashnode.com/res/hashnode/image/upload/v1681132538878/itnaYF1h-.png
 # - To upload, Login to Hashnode and go to https://hashnode.com/uploader
 #   Use the URL that is generated after the upload.
-cover:
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687288442178/A7_Upy1I9.jpg?auto=format
 
 # Should the post be ignored? When true it will not be picked up by Hashnode.
 # Boolean | Optional
@@ -65,7 +65,7 @@ ignorePost:
 #   team publication in Hashnode editor.
 # - Fails if the user is not a member of the team publication or
 #   if the publication is not a team publication
-publishAs:
+publishAs: coluzziandrea
 
 # Canonical URL of the post
 # String | Optional
@@ -75,7 +75,7 @@ publishAs:
 #   of a post in Hashnode editor.
 # - This is useful when you want to publish a post that is already
 #   published on another platform.
-canonical:
+canonical: https://coluzziandrea.hashnode.dev/achille/achille-init
 
 # Hide from Hashnode Community
 # Boolean | Optional
@@ -94,7 +94,7 @@ hideFromHashnodeCommunity:
 # - This is equivalent to SEO TITLE option present in draft settings
 #   of a post in Hashnode editor.
 # - You can also update a post to update this later.
-seoTitle:
+seoTitle: Achille - Setup Project
 
 # SEO Description
 # String | Optional
@@ -102,7 +102,7 @@ seoTitle:
 # - This is equivalent to SEO DESCRIPTION option present in
 #   draft settings of a post in Hashnode editor.
 # - You can also update a post to update this later.
-seoDescription:
+seoDescription: Setup Achille project
 
 # Disable comments for a post
 # Boolean | Optional
@@ -122,7 +122,7 @@ disableComments:
 # - You can update the post again to correct it later.
 # - You can find series information from the series section in your publication dashboard.
 #   You can also edit the series information from there.
-seriesSlug: // slug of the series
+seriesSlug: achille
 
 # Table of contents
 # Boolean | Optional
