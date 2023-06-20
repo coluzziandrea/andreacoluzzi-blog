@@ -167,6 +167,12 @@ We'll use the following command line to create our project ([ref](https://github
 
 You have to signup on Expo.
 
+Install Expo CLI Globally
+
+> npm install -g expo-cli
+
+Login to your account
+
 > expo login
 
 insert your username / password
@@ -174,6 +180,59 @@ insert your username / password
 > expo start --tunnel
 
 then scan the QR code from your phone.
+
+## Adding Linter (ESLint/Prettier)
+
+Install (via Expo, because it will find lib that are compatible) required dependencies:
+
+> expo install eslint eslint-config-prettier eslint-config-universe eslint-plugin-react-hooks
+
+Add a file _.eslintrc.json_ to the root of your project, with this content:
+
+```json
+{ "extends": ["universe", "plugin:react-hooks/recommended"] }
+```
+
+you can expand this definition, follow the [docs](https://eslint.org/docs/latest/use/configure/)
+
+for now, we are using [Expo Universe](https://github.com/expo/expo/tree/master/packages/eslint-config-universe) definitions.
+
+Install prettier through this command:
+
+> expo install prettier
+
+Now add this line to 'scripts' section of the package.json:
+
+```json
+"scripts": {
+...
+ "lint": "eslint ."
+}
+```
+
+Create prettier config file in your root called '.prettierrc.json', with this content:
+
+```json
+{
+  "arrowParens": "avoid",
+
+  "bracketSpacing": true,
+
+  "bracketSameLine": true,
+
+  "printWidth": 80,
+
+  "semi": false,
+
+  "singleQuote": true,
+
+  "tabWidth": 2,
+
+  "trailingComma": "all",
+
+  "useTabs": false
+}
+```
 
 ## References
 
