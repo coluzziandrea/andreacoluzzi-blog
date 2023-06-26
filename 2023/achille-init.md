@@ -181,56 +181,55 @@ insert your username / password
 
 then scan the QR code from your phone.
 
-## Adding Linter (ESLint/Prettier)
+## Add Linting
 
-Install (via Expo, because it will find lib that are compatible) required dependencies:
+> yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier prettier-eslint -D
 
-> expo install eslint eslint-config-prettier eslint-config-universe eslint-plugin-react-hooks
+Create a _.eslintrc.js_ file with this content:
 
-Add a file _.eslintrc.json_ to the root of your project, with this content:
+```js
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+    browser: true,
+    es2021: true,
+    'react-native/react-native': true,
+    'jest/globals': true,
+  },
+  extends: [
+    'plugin:react/recommended',
+    'prettier',
+    'eslint:recommended',
+    'plugin:jest/recommended',
+  ],
 
-```json
-{ "extends": ["universe", "plugin:react-hooks/recommended"] }
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+
+  plugins: ['react', 'react-native'],
+  ignorePatterns: ['!.*', 'dist', 'node_modules'],
+
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+};
 ```
 
-you can expand this definition, follow the [docs](https://eslint.org/docs/latest/use/configure/)
-
-for now, we are using [Expo Universe](https://github.com/expo/expo/tree/master/packages/eslint-config-universe) definitions.
-
-Install prettier through this command:
-
-> expo install prettier
-
-Now add this line to 'scripts' section of the package.json:
-
-```json
-"scripts": {
-...
- "lint": "eslint ."
-}
-```
-
-Create prettier config file in your root called '.prettierrc.json', with this content:
+Create a _.prettierrc_ with this content:
 
 ```json
 {
-  "arrowParens": "avoid",
-
-  "bracketSpacing": true,
-
-  "bracketSameLine": true,
-
-  "printWidth": 80,
-
   "semi": false,
-
   "singleQuote": true,
-
-  "tabWidth": 2,
-
-  "trailingComma": "all",
-
-  "useTabs": false
+  "trailingComma": "none"
 }
 ```
 
