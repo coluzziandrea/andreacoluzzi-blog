@@ -17,7 +17,7 @@ title: Achille - Setup Project
 # - If you change only the slug of the post, the post will be updated with the new slug.
 # - If you change only the path of the post, the post will be will be updated with new path
 #   and any other changes along with it if any.
-slug: achille-init
+slug: achille-01-init
 
 # Tags
 # String (comma-separated tag slugs) | *REQUIRED*
@@ -75,7 +75,7 @@ publishAs:
 #   of a post in Hashnode editor.
 # - This is useful when you want to publish a post that is already
 #   published on another platform.
-canonical: https://coluzziandrea.hashnode.dev/achille/achille-init
+canonical: https://coluzziandrea.hashnode.dev/achille/achille-01-init
 
 # Hide from Hashnode Community
 # Boolean | Optional
@@ -162,6 +162,10 @@ We'll use [Expo](https://docs.expo.dev/) to setup our project.
 We'll use the following command line to create our project ([ref](https://github.com/expo/examples/tree/master/with-typescript))
 
 > npx create-react-native-app -t with-typescript
+
+## Environment & Prequisites
+
+I'm implementing this in Github Codespace environment, but this guide can be applied to all VS Code distributions.
 
 ## Execute from Github Codespaces
 
