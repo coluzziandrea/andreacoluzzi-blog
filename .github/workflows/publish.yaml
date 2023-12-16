@@ -39,7 +39,7 @@ jobs:
       #     access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
       #     access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
 
-      - uses: rg-wood/send-tweet-action@v1
+      - uses: rg-wood/send-tweet-action@v0.18
         with:
           status: 'Hi, this is a test!'
           consumer-key: ${{ secrets.TWITTER_API_KEY }}
