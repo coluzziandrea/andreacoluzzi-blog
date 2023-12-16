@@ -147,7 +147,7 @@ enableToc:
 # - This follows the same rules as a post create and update
 #   flow as well as the slug rules mentioned since
 #   beginning of this manual.
-saveAsDraft:
+saveAsDraft: true
 # Note:
 # This is in beta currently
 # Newsletter and Post scheduling is NOT supported as of now.
@@ -224,7 +224,7 @@ module.exports = {
       version: 'detect',
     },
   },
-};
+}
 ```
 
 Create a _.prettierrc_ with this content:
