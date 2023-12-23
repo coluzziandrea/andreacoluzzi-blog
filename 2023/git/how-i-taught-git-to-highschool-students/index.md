@@ -4,7 +4,7 @@ subtitle: My Experience as Linux Day Mentor
 slug: git-00-linux-day
 tags: GIT, teaching, sharing, GitHub
 domain: https://coluzziandrea.hashnode.dev/
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702922095534/mPtwtByla.png?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703341841143/WChhSSCcr.png?auto=format
 canonical: https://coluzziandrea.hashnode.dev/git/git-00-linux-day
 seoTitle: I Taught GIT to High School Students
 seoDescription: My Experience as Linux Day Mentor
