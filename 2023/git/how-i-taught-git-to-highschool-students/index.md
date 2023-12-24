@@ -42,28 +42,51 @@ I must say that helping him out preparing the slides made me feel like I really 
 
 
 
-# Teaching Approach
-   - Describe your teaching methods and how you tailored them for high school students.
+# Teaching Experience
 
-   - Mention any interactive elements or engaging activities you incorporated.
+The only experience in teaching I had before was back in 10 years ago, when I helped my younger cousin to study math. This was not comparable to the situation I was facing, but it was a memory that helped me during this project.
 
-# Students Engagement
-   - Share your satisfaction in seeing students actively participate.
 
-   - Highlight specific instances of successful discussions and interactions.
 
-# Challenges & Solutions
+
+## Slides
+
+I tried to explain in the [slides](https://docs.google.com/presentation/d/1XBWl-tYKE0cKizAwlZvif-pULRbUXU54ZZ4jL8vkMCs/edit?usp=sharing) the basics of GIT. To do so, I started from the very beginning: Why do we need GIT & What is GIT after all? 
+
+The presentation was structured the following way:
+- Introduction & Foundamentals: Understand what GIT is & why it is so important
+- Installation & Configuration: Let's see how to install & configure it
+- Basic commands: Dive in the basic GIT commands
+- Merging, branching & advanced commands: undersand most important GIT features
+- Tools & best practices: fix what we learned 
+- Conclusions
+
+
+
+I tried to insert in the slides as much images I could, to give a visual impact to the presented concepts. Like in the following slide extracted from the deck above:
+
+![image](https://cdn.jsdelivr.net/gh/coluzziandrea/andreacoluzzi-blog/2023/git/how-i-taught-git-to-highschool-students/photo/slide-01.jpg)
+
+
+Unfortunately I couldn't go through all the slides because of time constraints, but I gave the students an exercise to solve instead. 
+
+## Practical Exercise
+
+I prepared a GitHub repository 
+
+
+# Retrospective
    - Address any challenges you faced during the teaching process.
 
    - Discuss how you overcame these challenges, emphasizing the success of the exercise.
+ - Share your satisfaction in seeing students actively participate.
 
-# Impact & Takeaways
+   - Highlight specific instances of successful discussions and interactions.
 
    - Reflect on the impact of the GIT teaching experience on the students.
 
    - Share any positive feedback received and lessons learned from the process.
 
-# Conclusion
    - Summarize the key points discussed.
 
    - Express your overall satisfaction and the success of the teaching exercise.
