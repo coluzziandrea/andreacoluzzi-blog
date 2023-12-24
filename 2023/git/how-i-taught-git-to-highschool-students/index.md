@@ -30,7 +30,7 @@ It all started when [Exo Italia](https://www.exoitalia.it/) came to us saying th
 
 
 
-![image](https://cdn.jsdelivr.net/gh/coluzziandrea/andreacoluzzi-blog/2023/git/how-i-taught-git-to-highschool-students/photo/logo.jpeg)
+![image](https://cdn.jsdelivr.net/gh/coluzziandrea/andreacoluzzi-blog/2023/git/how-i-taught-git-to-highschool-students/photo/logo.jpg)
 
 
 
