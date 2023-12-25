@@ -72,13 +72,31 @@ Unfortunately I couldn't go through all the slides because of time constraints, 
 
 ## Practical Exercise
 
-I prepared a GitHub repository 
+I prepared a GitHub repository as an exercise to give the students. The repository is a simple HTML page with a plain JavaScript file and a CSS file.
+
+
+The challenge was to identify two different bugs in the code. I tried to make it simple and straightforward for them, and the bugs were really easy to find (for a mid-level software engineer): one bug was in the URL used to import the CSS file that was pointing to the wrong path, and the other one was in the JavaScript, there was a counter which hadn't been updated in a for-loop.
+
+So the assigned task was to:
+
+- Fork the repository
+- Open a GitHub code space on the repo
+- Create a GIT branch
+- Solve bugs on that branch
+- Commit the changes on the new branch 
+- Merge the new branch in main branch
+
+# Retrospective 
+
+One issue I had almost instantly after giving this task was that just one of the students had a GitHub account, so we spent a while waiting for them to create & activate it.
+
+
+
+
 
 
 # Retrospective
-   - Address any challenges you faced during the teaching process.
 
-   - Discuss how you overcame these challenges, emphasizing the success of the exercise.
  - Share your satisfaction in seeing students actively participate.
 
    - Highlight specific instances of successful discussions and interactions.
