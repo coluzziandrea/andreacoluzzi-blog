@@ -10,7 +10,7 @@ seoTitle: I Taught GIT to High School Students
 seoDescription: My Experience as Linux Day Mentor
 seriesSlug: git
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 # I Taught GIT to High School Students
