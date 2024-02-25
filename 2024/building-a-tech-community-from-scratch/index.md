@@ -10,7 +10,7 @@ seoTitle: Building a Tech Community from Scratch
 seoDescription: How I built a community from scratch and what I learned from it
 seriesSlug: community
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 # Building a Tech Community from Scratch
